@@ -35,6 +35,10 @@ plugins:
   - jekyll-feed
   - jekyll-archives
 
+header_pages:
+  - navbar/about.md
+  - navbar/categories.md
+
 jekyll-archives:
   enabled: all
   layouts:
