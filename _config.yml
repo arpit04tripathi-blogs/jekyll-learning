@@ -56,7 +56,9 @@ jekyll-archives:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
+exclude:
+  - scripts/
+  - docker/
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
