@@ -1,4 +1,14 @@
-echo "Running entry.sh"
+echo "<===================== Running entry.sh =====================>"
+
+if [ -d "_site" ] 
+then
+    echo "Directory _site exists, Deleting it..."
+    rm -r _site
+    echo "Done! deleted _site"
+else
+    echo "Error: Directory /path/to/dir does not exists."
+fi
+
 # echo "<=== info minima ===>"
 # bundle info minima
 
