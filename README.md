@@ -1,2 +1,3 @@
 # jekyll-learning
-Learning jekyll
+
+Learning [jekyll](https://jekyllrb.com/)
